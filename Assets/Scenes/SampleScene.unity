@@ -2207,6 +2207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   config:
     MoveSpeed: 6
+    MaxSpeed: 0
     RotationSmoothTime: 0
     SpeedChangeRate: 10
     JumpHeight: 3
@@ -2219,7 +2220,7 @@ MonoBehaviour:
   rb: {fileID: 1255846113}
   input: {fileID: 1255846115}
   col: {fileID: 1255846112}
-  animator: {fileID: 0}
+  _mainCamera: {fileID: 833136969}
   IsGrounded: 0
 --- !u!1 &1270483523
 GameObject:

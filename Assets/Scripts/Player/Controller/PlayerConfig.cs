@@ -7,6 +7,8 @@ public struct PlayerConfig
 	[Header("Player")]
 	[Tooltip("Move speed of the character in m/s")]
 	public float MoveSpeed;
+	[Tooltip("Max speed of the character in m/s")]
+	public float MaxSpeed;
 	[Tooltip("How fast the character turns to face movement direction")]
 	[Range(0.0f, 0.3f)]
 	public float RotationSmoothTime;
